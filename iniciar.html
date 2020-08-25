@@ -1,0 +1,18 @@
+iniciar.html
+<!-- Se emplea este archivo para ingresar los datos del usuario registrado -->
+<section class="cuerpo">
+		<h3>Iniciar sesión</h3>
+		<form action="validar.php" method="POST">			
+			<label>Usuario</label><br>
+			<input type="text" name="usuario" class="campos" required><br>
+			<label>Contraseña</label><br>
+			<input type="password" name="clave" class="campos" required><br><br>
+
+			<input type="submit" name="envia" value="Enviar" class="campos" id="envia"><br>
+			<input type="reset" name="restaura" value="Limpiar" class="campos" id="restaura"><br>
+			
+		</form>		
+		<a href="index.html">
+			<button class="campos" id="inicia">Regresar</button>
+		</a>
+	</section>

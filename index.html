@@ -1,0 +1,24 @@
+index.html
+<!-- Se recomienda tener limpia esta pagina, es decir que el formulario aparezca primero en la web -->
+<section class="cuerpo">
+	<h3>Registro de Datos</h3>
+		<form action="registrar.php" method="POST">
+			<label>Nombres</label><br>
+			<input type="text" name="nombre"  class="campos" required><br>
+			<label>Apellidos</label><br>
+			<input type="text" name="apellido" class="campos" required><br>
+			<label>Celular</label><br>
+			<input type="text" name="celular" class="campos" required><br>
+			<label>Usuario</label><br>
+			<input type="text" name="usuario" class="campos" required><br>
+			<label>Contraseña</label><br>
+			<input type="password" name="clave" class="campos" required><br><br>
+
+			<input type="submit" name="envia" value="Enviar" class="campos" id="envia"><br>
+			<input type="reset" name="restaura" value="Limpiar" class="campos" id="restaura"><br>
+			
+		</form>		
+		<a href="iniciar.html">
+			<button class="campos" id="inicia">Iniciar Sesión</button>
+		</a>
+</section>
